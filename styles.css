@@ -5,6 +5,9 @@ body {
     height: 100vh;
     margin: 0;
 }
+.container{
+	display:flex;
+}
 
 .traffic-light {
     display: flex;
