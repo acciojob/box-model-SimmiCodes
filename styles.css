@@ -1,1 +1,36 @@
-/*  your css code here. If applicable */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.traffic-light {
+    display: flex;
+    flex-direction: row;
+    background-color: #D3D4D3;
+	border:3px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.light {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 5px;
+    background-color: #ccc;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
